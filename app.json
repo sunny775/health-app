@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "health-app",
-    "slug": "health-app",
+    "name": "Docki Health",
+    "slug": "docki-health",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -27,15 +27,16 @@
     },
     "plugins": [
       "expo-router",
+      "expo-av",
       [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#0EA5E9",
           "dark": {
-            "backgroundColor": "#000000"
+            "backgroundColor": "#0C4A6E"
           }
         }
       ]
